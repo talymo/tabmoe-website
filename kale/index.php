@@ -7,6 +7,8 @@
 ?>
 <?php get_header(); ?>
 
+<h2> Hey Duffy!</h2>
+
 <?php if(is_front_page() && !is_paged() ) { 
     get_template_part('parts/frontpage', 'banner'); 
     get_template_part('parts/frontpage', 'featured'); 
